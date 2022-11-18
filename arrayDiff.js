@@ -1,3 +1,7 @@
+// from codewars.com Array.diff
+// Your goal in this kata is to implement a difference function, which subtracts one list from another and returns the result.
+// It should remove all values from list a, which are present in list b keeping their order.
+
 
 // let removeArr = [3, 2];
 // let mainArr = [1, 2, 3, 3, 2, 5, 3, 2, 1];
