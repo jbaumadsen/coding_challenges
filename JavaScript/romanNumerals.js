@@ -18,9 +18,10 @@ function letterToValue(letter) {
 }
 
 function upOrDown(valueArray, index) {
-
     console.log(valueArray);
-    return valueArray.length > index + 1 && valueArray[index + 1] > valueArray[index] ? -1 : valueArray[index] == valueArray[index + 1] ? upOrDown(valueArray, index + 1) : 1; 
+    return valueArray.length > index + 1 && valueArray[index + 1] > valueArray[index] ? -1 
+        : valueArray[index] == valueArray[index + 1] ? upOrDown(valueArray, index + 1) 
+        : 1; 
 }
 
 function solution (roman) {
